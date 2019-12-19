@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=callcenter',
-    'username' => 'invalid',
-    'password' => 'inv  alid',
+    'dsn' => 'mysql:host=micro-shipjack.ctl2yyca4427.us-east-1.rds.amazonaws.com;dbname=callcenter',
+    'username' => 'admin',
+    'password' => 'yQtCCPS8PDKL9mwJ',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
