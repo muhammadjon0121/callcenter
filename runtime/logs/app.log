@@ -1,0 +1,2289 @@
+2019-12-14 17:05:43 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: clients/list in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('list', Array)
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/list', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-12-14 17:05:43 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/list'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '58759'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients/list'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/list'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576339543.722
+    'REQUEST_TIME' => 1576339543
+]
+2019-12-14 17:05:48 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: clients/adnmin in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('adnmin', Array)
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/adnmin', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-12-14 17:05:48 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/adnmin'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '58759'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients/adnmin'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/adnmin'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576339548.445
+    'REQUEST_TIME' => 1576339548
+]
+2019-12-14 17:06:27 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'created_at' cannot be null in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('clients', Array)
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(69): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\ClientsController->actionCreate()
+#8 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/create', Array)
+#12 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'created_at' cannot be null
+The SQL being executed was: INSERT INTO `clients` (`phone`, `note`, `name`, `status`, `deleted_at`, `created_at`, `updated_at`) VALUES ('83477726464', 'asd', 'sdad', 1, NULL, NULL, NULL) in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `cl...')
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('clients', Array)
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(69): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\ClientsController->actionCreate()
+#8 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/create', Array)
+#12 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'created_at' cannot be null
+)
+
+2019-12-14 17:06:27 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/create'
+]
+
+$_POST = [
+    '_csrf' => 'Y6agUCF2NwWMsh4bFU1nsbNIONvj9dgVP15dHbkKgE4mxfMjSiRwXKH6dHMkNCKFwCBni9uE63Z7HARqiz_tOA=='
+    'Clients' => [
+        'phone' => '83477726464'
+        'note' => 'asd'
+        'name' => 'sdad'
+        'status' => '1'
+        'deleted_at' => ''
+        'created_at' => ''
+        'updated_at' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '271'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '58772'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients%2Fcreate'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients%2Fcreate'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576339587.12
+    'REQUEST_TIME' => 1576339587
+]
+2019-12-14 21:20:37 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: clients/adnmin in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('adnmin', Array)
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/adnmin', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-12-14 21:20:37 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/adnmin'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '60324'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients/adnmin'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/adnmin'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576354837.002
+    'REQUEST_TIME' => 1576354837
+]
+2019-12-14 21:22:29 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'updated_at' cannot be null in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('clients', Array)
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(69): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\ClientsController->actionCreate()
+#8 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/create', Array)
+#12 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'updated_at' cannot be null
+The SQL being executed was: INSERT INTO `clients` (`phone`, `note`, `name`, `status`, `deleted_at`, `created_at`, `updated_at`) VALUES ('+998912850121', 'Mobile', 'Muhammadjon', 1, NULL, '15.12.2019', NULL) in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `cl...')
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('clients', Array)
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(69): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\ClientsController->actionCreate()
+#8 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/create', Array)
+#12 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'updated_at' cannot be null
+)
+
+2019-12-14 21:22:27 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/create'
+]
+
+$_POST = [
+    '_csrf' => 'zxAlS88kONKxzOE6gfkoKg7yErPKMUNGjMfOKYw3xUKKc3Y4pHZ_i5yEi1KwgG0efZpN4_JAcCXIhZdevgKoNA=='
+    'Clients' => [
+        'phone' => '+998912850121'
+        'note' => 'Mobile'
+        'name' => 'Muhammadjon'
+        'status' => '1'
+        'deleted_at' => ''
+        'created_at' => '15.12.2019'
+        'updated_at' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '295'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '60395'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients%2Fcreate'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients%2Fcreate'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576354947.962
+    'REQUEST_TIME' => 1576354947
+]
+2019-12-15 10:07:27 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][ParseError] ParseError: syntax error, unexpected 'return' (T_RETURN) in D:\xampp\htdocs\callcenter\controllers\ClientsController.php:80
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\controllers...')
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('clients')
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('upload')
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#6 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-12-15 10:07:27 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '53593'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576400847.074
+    'REQUEST_TIME' => 1576400847
+]
+2019-12-15 10:08:27 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: clients/upload in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-12-15 10:08:26 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '53606'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576400906.493
+    'REQUEST_TIME' => 1576400906
+]
+2019-12-15 10:15:24 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'created_at' cannot be null in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('clients', Array)
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(69): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\ClientsController->actionCreate()
+#8 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/create', Array)
+#12 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'created_at' cannot be null
+The SQL being executed was: INSERT INTO `clients` (`phone`, `note`, `name`, `status`, `deleted_at`, `created_at`, `updated_at`) VALUES ('83477726464', 'rdsd', 'sd', 1, NULL, NULL, NULL) in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `cl...')
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('INSERT INTO `cl...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('clients', Array)
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(69): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\ClientsController->actionCreate()
+#8 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/create', Array)
+#12 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'created_at' cannot be null
+)
+
+2019-12-15 10:15:24 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/create'
+]
+
+$_POST = [
+    '_csrf' => 'matvFJM1aPxybKJ_UxCvMAxeGnGHNwW5qcPCVKBttdLcyDxn-GcvpV8kyBdiaeoEfzZFIb9GNtrtgZsjkljYpA=='
+    'Clients' => [
+        'phone' => '83477726464'
+        'note' => 'rdsd'
+        'name' => 'sd'
+        'status' => '1'
+        'deleted_at' => ''
+        'created_at' => ''
+        'updated_at' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '270'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '53696'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients%2Fcreate'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients%2Fcreate'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576401324.547
+    'REQUEST_TIME' => 1576401324
+]
+2019-12-15 10:22:43 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][ParseError] ParseError: syntax error, unexpected '?>' in D:\xampp\htdocs\callcenter\views\clients\_form.php:23
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#2 D:\xampp\htdocs\callcenter\views\clients\create.php(17): yii\base\View->render('_form', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(348): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\ClientsController))
+#6 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(app\controllers\ClientsController))
+#7 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(74): yii\base\Controller->render('create', Array)
+#8 [internal function]: app\controllers\ClientsController->actionCreate()
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#12 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/create', Array)
+#13 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2019-12-15 10:22:43 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '53798'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients%2Fcreate'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients%2Fcreate'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576401763.368
+    'REQUEST_TIME' => 1576401763
+]
+2019-12-15 10:22:46 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][ParseError] ParseError: syntax error, unexpected '?>' in D:\xampp\htdocs\callcenter\views\clients\_form.php:23
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#2 D:\xampp\htdocs\callcenter\views\clients\create.php(17): yii\base\View->render('_form', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(348): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\ClientsController))
+#6 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('create', Array, Object(app\controllers\ClientsController))
+#7 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(74): yii\base\Controller->render('create', Array)
+#8 [internal function]: app\controllers\ClientsController->actionCreate()
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#12 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/create', Array)
+#13 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2019-12-15 10:22:46 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '53799'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients%2Fcreate'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients%2Fcreate'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576401766.583
+    'REQUEST_TIME' => 1576401766
+]
+2019-12-15 10:31:56 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: clients/upload in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-12-15 10:31:56 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '54014'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576402316.632
+    'REQUEST_TIME' => 1576402316
+]
+2019-12-15 12:25:49 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2019-12-15 12:25:49 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '54121'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576409149.019
+    'REQUEST_TIME' => 1576409149
+]
+2019-12-15 12:26:52 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2019-12-15 12:26:52 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '54135'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576409212.582
+    'REQUEST_TIME' => 1576409212
+]
+2019-12-15 12:26:58 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2019-12-15 12:26:58 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '54138'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576409218.486
+    'REQUEST_TIME' => 1576409218
+]
+2019-12-15 12:27:52 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2019-12-15 12:27:52 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '54182'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576409272.522
+    'REQUEST_TIME' => 1576409272
+]
+2019-12-15 12:29:08 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2019-12-15 12:29:08 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\xampp\\htdocs\\callcenter\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54304'
+    'SERVER_SOFTWARE' => 'PHP 7.3.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=clients/upload'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\callcenter\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=clients/upload'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'REQUEST_TIME_FLOAT' => 1576409348.0562
+    'REQUEST_TIME' => 1576409348
+]
+2019-12-15 12:29:41 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2019-12-15 12:29:41 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = [
+    'csv' => 'numbers.csv'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\xampp\\htdocs\\callcenter\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54350'
+    'SERVER_SOFTWARE' => 'PHP 7.3.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=clients/upload'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\callcenter\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=clients/upload'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '15'
+    'HTTP_CONTENT_LENGTH' => '15'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'REQUEST_TIME_FLOAT' => 1576409381.2241
+    'REQUEST_TIME' => 1576409381
+]
+2019-12-15 12:29:48 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2019-12-15 12:29:48 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = [
+    'csv' => 'numbers.csv'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\xampp\\htdocs\\callcenter\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54376'
+    'SERVER_SOFTWARE' => 'PHP 7.3.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=clients/upload'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\callcenter\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=clients/upload'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '15'
+    'HTTP_CONTENT_LENGTH' => '15'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'REQUEST_TIME_FLOAT' => 1576409388.3469
+    'REQUEST_TIME' => 1576409388
+]
+2019-12-15 12:36:34 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in D:\xampp\htdocs\callcenter\views\clients\upload.php:21
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\views\clients\upload.php(21): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 21, Array)
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(348): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\ClientsController))
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('upload', Array, Object(app\controllers\ClientsController))
+#5 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(82): yii\base\Controller->render('upload')
+#6 [internal function]: app\controllers\ClientsController->actionUpload()
+#7 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-12-15 12:36:34 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\xampp\\htdocs\\callcenter\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54936'
+    'SERVER_SOFTWARE' => 'PHP 7.3.11 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=clients/upload'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\callcenter\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=clients/upload'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'REQUEST_TIME_FLOAT' => 1576409794.6218
+    'REQUEST_TIME' => 1576409794
+]
+2019-12-15 12:42:24 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Unable to verify your data submission. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Controller.php:166
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2019-12-15 12:42:24 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '55390'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576410144.41
+    'REQUEST_TIME' => 1576410144
+]
+2019-12-15 12:42:26 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in D:\xampp\htdocs\callcenter\views\clients\upload.php:13
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\views\clients\upload.php(13): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 13, Array)
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(348): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\ClientsController))
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('upload', Array, Object(app\controllers\ClientsController))
+#5 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(82): yii\base\Controller->render('upload')
+#6 [internal function]: app\controllers\ClientsController->actionUpload()
+#7 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#10 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#11 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-12-15 12:42:26 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '55391'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576410146.171
+    'REQUEST_TIME' => 1576410146
+]
+2019-12-15 12:45:02 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: csv in D:\xampp\htdocs\callcenter\controllers\ClientsController.php:82
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(82): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 82, Array)
+#1 [internal function]: app\controllers\ClientsController->actionUpload()
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#6 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-12-15 12:45:02 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = [
+    '_csrf' => '76opjo-IhN7801D-xGT5Jq99mlR23hILTcWIN9huqniqyXr95NrDh9GbOpb1HbwS3BXFBE6vIWgJh9FA6lvHDg=='
+    'CsvClientsImport' => [
+        'csv' => ''
+    ]
+]
+
+$_FILES = [
+    'CsvClientsImport' => [
+        'name' => [
+            'csv' => 'numbers.csv'
+        ]
+        'type' => [
+            'csv' => 'application/octet-stream'
+        ]
+        'tmp_name' => [
+            'csv' => 'D:\\xampp\\tmp\\phpA956.tmp'
+        ]
+        'error' => [
+            'csv' => 0
+        ]
+        'size' => [
+            'csv' => 3266
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '3770'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryydeFsDoH2xPjOCZ1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '55555'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576410302.843
+    'REQUEST_TIME' => 1576410302
+]
+2019-12-15 12:52:52 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in D:\xampp\htdocs\callcenter\controllers\ClientsController.php:87
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\controllers\ClientsController.php(87): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'D:\\xampp\\htdocs...', 87, Array)
+#1 [internal function]: app\controllers\ClientsController->actionUpload()
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#6 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-12-15 12:52:52 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = [
+    '_csrf' => '76opjo-IhN7801D-xGT5Jq99mlR23hILTcWIN9huqniqyXr95NrDh9GbOpb1HbwS3BXFBE6vIWgJh9FA6lvHDg=='
+    'CsvClientsImport' => [
+        'csv' => ''
+    ]
+]
+
+$_FILES = [
+    'CsvClientsImport' => [
+        'name' => [
+            'csv' => 'numbers.csv'
+        ]
+        'type' => [
+            'csv' => 'application/octet-stream'
+        ]
+        'tmp_name' => [
+            'csv' => 'D:\\xampp\\tmp\\phpD2DE.tmp'
+        ]
+        'error' => [
+            'csv' => 0
+        ]
+        'size' => [
+            'csv' => 3266
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '3770'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryydeFsDoH2xPjOCZ1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '56045'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576410772.228
+    'REQUEST_TIME' => 1576410772
+]
+2019-12-15 12:53:19 [::1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in D:\xampp\htdocs\callcenter\controllers\ClientsController.php on line 87. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2019-12-15 12:53:19 [::1][-][-][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = [
+    '_csrf' => '76opjo-IhN7801D-xGT5Jq99mlR23hILTcWIN9huqniqyXr95NrDh9GbOpb1HbwS3BXFBE6vIWgJh9FA6lvHDg=='
+    'CsvClientsImport' => [
+        'csv' => ''
+    ]
+]
+
+$_FILES = [
+    'CsvClientsImport' => [
+        'name' => [
+            'csv' => 'numbers.csv'
+        ]
+        'type' => [
+            'csv' => 'application/octet-stream'
+        ]
+        'tmp_name' => [
+            'csv' => 'D:\\xampp\\tmp\\php3D70.tmp'
+        ]
+        'error' => [
+            'csv' => 0
+        ]
+        'size' => [
+            'csv' => 3266
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '3770'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryydeFsDoH2xPjOCZ1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '56072'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576410799.5
+    'REQUEST_TIME' => 1576410799
+]
+2019-12-15 12:54:12 [::1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in D:\xampp\htdocs\callcenter\controllers\ClientsController.php on line 88. in D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2019-12-15 12:54:11 [::1][-][-][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = [
+    '_csrf' => '76opjo-IhN7801D-xGT5Jq99mlR23hILTcWIN9huqniqyXr95NrDh9GbOpb1HbwS3BXFBE6vIWgJh9FA6lvHDg=='
+    'CsvClientsImport' => [
+        'csv' => ''
+    ]
+]
+
+$_FILES = [
+    'CsvClientsImport' => [
+        'name' => [
+            'csv' => 'numbers.csv'
+        ]
+        'type' => [
+            'csv' => 'application/octet-stream'
+        ]
+        'tmp_name' => [
+            'csv' => 'D:\\xampp\\tmp\\phpA37.tmp'
+        ]
+        'error' => [
+            'csv' => 0
+        ]
+        'size' => [
+            'csv' => 3266
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '3770'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryydeFsDoH2xPjOCZ1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '56121'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576410851.923
+    'REQUEST_TIME' => 1576410851
+]
+2019-12-15 14:26:08 [::1][-][a2ign7svcbo7ompcivma3ijet8][error][ParseError] ParseError: syntax error, unexpected '$file_path' (T_VARIABLE) in D:\xampp\htdocs\callcenter\controllers\ClientsController.php:82
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\controllers...')
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('clients')
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('upload')
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#6 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-12-15 14:26:08 [::1][-][a2ign7svcbo7ompcivma3ijet8][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '57378'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576416368.512
+    'REQUEST_TIME' => 1576416368
+]
+2019-12-15 14:40:59 [::1][-][-][error][yii\web\HttpException:Неверный формат] yii\web\HttpException in D:\xampp\htdocs\callcenter\controllers\ClientsController.php:100
+Stack trace:
+#0 [internal function]: app\controllers\ClientsController->actionUpload()
+#1 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('upload', Array)
+#4 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('clients/upload', Array)
+#5 D:\xampp\htdocs\callcenter\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\callcenter\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2019-12-15 14:40:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'clients/upload'
+]
+
+$_POST = [
+    '_csrf' => 'QRX94xO5Ytpqpdgc2qznOBYImm67A8db25lv62JzFHcEdq6QeOslg0ftsnTr1aIMZWDFPoNy9Dif2zacUEZ5AQ=='
+    'CsvClientsImport' => [
+        'csv' => ''
+    ]
+]
+
+$_FILES = [
+    'CsvClientsImport' => [
+        'name' => [
+            'csv' => 'requirements.php'
+        ]
+        'type' => [
+            'csv' => 'application/octet-stream'
+        ]
+        'tmp_name' => [
+            'csv' => 'D:\\xampp\\tmp\\phpD083.tmp'
+        ]
+        'error' => [
+            'csv' => 0
+        ]
+        'size' => [
+            'csv' => 5860
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv\";}'
+    'PHPSESSID' => 'a2ign7svcbo7ompcivma3ijet8'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '6369'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarypBXuUpLLZH44O9c3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_REFERER' => 'http://localhost/callcenter/web/index.php?r=clients/upload'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,cy;q=0.6'
+    'HTTP_COOKIE' => '_csrf=7171f2640d35dfc4b9e73144db18953590a5101792bedf06844712a3ac67d14ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcSskRGY-Hjh1yE4sh_P8q3cDBYw25mv%22%3B%7D; PHPSESSID=a2ign7svcbo7ompcivma3ijet8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;D:\\xampp\\php;D:\\composer;C:\\Users\\muham\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\muham\\AppData\\Roaming\\npm;D:\\composer;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/callcenter/web/index.php'
+    'REMOTE_PORT' => '57540'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=clients/upload'
+    'REQUEST_URI' => '/callcenter/web/index.php?r=clients/upload'
+    'SCRIPT_NAME' => '/callcenter/web/index.php'
+    'PHP_SELF' => '/callcenter/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1576417259.579
+    'REQUEST_TIME' => 1576417259
+]
