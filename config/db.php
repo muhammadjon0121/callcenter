@@ -5,7 +5,7 @@ return [
     'dsn' => 'mysql:host=micro-shipjack.ctl2yyca4427.us-east-1.rds.amazonaws.com;dbname=callcenter',
     'username' => 'admin',
     'password' => 'yQtCCPS8PDKL9mwJ',
-    'charset' => 'utf8',
+//    'charset' => 'utf8',
 
     // Schema cache options (for production environment)
     //'enableSchemaCache' => true,
