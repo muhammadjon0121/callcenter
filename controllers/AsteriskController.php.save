@@ -1,0 +1,80 @@
+<?php
+namespace app\controllers;
+
+use Yii;
+use app\models\AsteriskEvent;
+use yii\web\Controller;
+use yii\filters\AccessControl;
+
+class AsteriskController extends \yii\web\Controller
+{
+
+    public function beforeAction($action) 
+    { 
+       $this->enableCsrfValidation = false; 
+       return parent::beforeAction($action); 
+    }
+
+	public function behaviors()
+    	{
+        return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'only' => ['event'],
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'actions' => ['event'],
+                        'roles' => ['?'],
+                    ]
+                ],
+            ],
+        ];
+    }
+    public function actionEvent()
+    {
+	$post = json_decode(file_get_contents('php://input'),true);
+	error_reporting(0);
+        $data = new AsteriskEvent();
+        $data->event=$post['Event'];
+        $data->privilege=$post['Privilege'];        
+	$data->bridge_uniqueid=$post['BridgeUniqueid'];
+        $data->bridge_type=$post['BridgeType'];
+        $data->bridge_technology=$post['BridgeTechnology'];
+        $data->bridge_creator=$post['BridgeCreator'];
+        $data->bridge_name=$post['BridgeName'];
+        $data->bridge_num_channels=$post['BridgeNumChannels'];
+        $data->bridge_video_source_mode=$post['BridgeVideoSourceMode'];
+        $data->channel=$post['Channel'];
+        $data->channel_state=$post['ChannelState'];
+        $data->channel_state_desc=$post['ChannelStateDesc'];
+        $data->caller_id_num=$post['CallerIdNum'];
+        $data->caller_id_name=$post['CallerIdName'];
+        $data->connected_line_num=$post['ConnectedLineNum'];
+        $data->connected_line_name=$post['ConnectedLineName'];
+        $data->language=$post['Language'];
+        $data->account_code=$post['AccountCode'];
+        $data->context=$post['Context'];
+        $data->exten=$post['Exten'];
+        $data->priority=$post['Priority'];
+        $data->uniqueid=$post['Uniqueid'];
+        $data->linkedid=$post['Linkedid'];
+        $data->save(false);
+//        if(!$data->save()) { echo 'err->' . json_encode($data->errors); }
+    }
+
+
+    public function actionCheck()
+    {
+
+        return $this->render('check');
+        $numbers=[1001,1002,1003,1004,1005,1006,1007,1008,1009,1010];
+
+        for ($i=0; $i < $numbers; $i++) { 
+        $criteria=new CDbCriteria();
+        $criteria->compare('status',Post::AsteriskEvent); 
+        $criteria->addInCondition('',array(1,2,3,4,5,6));
+
+        }
+    }
+}
