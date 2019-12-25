@@ -28,11 +28,6 @@ class AsteriskController extends \yii\web\Controller
                         'actions' => ['event'],
                         'roles' => ['?'],
                     ],
-                    [
-                        'allow' => true,
-                        'actions' => ['test'],
-                        'roles' => ['*']
-                    ]
                 ],
             ],
         ];
@@ -51,9 +46,14 @@ class AsteriskController extends \yii\web\Controller
             } else if($post['Event'] == 'DialEnd' && $post['Exten'] == '1002' && $post['DialStatus'] == 'ANSWER') {
                 $status = 'talking';
             }
-            $sip_status = new SipStatus();
-            $sip_status->status = $status;
-            $sip_status->save(false);
+            if($status ){
+                $sip_status = new SipStatus();
+                $sip_status->sip = $status;
+                $sip_status->status = $status;
+                $sip_status->datetime = $status;
+                $sip_status->save(false);
+            }
+
 
             /* $data->event=$post['Event'];
                $data->privilege=$post['Privilege'];
